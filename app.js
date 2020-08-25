@@ -1,6 +1,9 @@
-const http = require('http');
+const express = require('express');
 
-const reqHand = require('./routes');
-const server = http.createServer(reqHand);
+const app = express();
 
-server.listen(3000);
+app.use((req, res, next) => {
+  res.send('<p>Pouloulou!</p>')
+});
+
+app.listen(3000);
