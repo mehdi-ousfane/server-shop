@@ -14,5 +14,3 @@ function menuToggleClickHandler() {
 
 backdrop.addEventListener('click', backdropClickHandler);
 menuToggle.addEventListener('click', menuToggleClickHandler);
-
-// COURAGE TU VAS NIQUER PARIS ..... SOIS MEILLEUR JOUR APRES JOUR
